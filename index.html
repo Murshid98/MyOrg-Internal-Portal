@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Org IT Asset</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Decoration -->
+    <div class="bg-decoration"
+        style="top: -100px; right: -100px; width: 400px; height: 400px; background-color: var(--primary-light);"></div>
+    <div class="bg-decoration"
+        style="bottom: -50px; left: -50px; width: 300px; height: 300px; background-color: rgba(227, 6, 19, 0.03);">
+    </div>
+
+    <div class="container"
+        style="flex: 1; display: flex; flex-direction: column; justify-content: center; padding-top: 4rem; padding-bottom: 4rem;">
+
+        <div class="text-center mb-8">
+            <span class="chip chip-primary mb-2">Internal Portal</span>
+
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">
+                <span style="color: var(--primary-color);">My Org</span> Support
+            </h1>
+
+            <p style="font-size: 1.25rem; max-width: 600px; margin: 0 auto;">
+                Streamlined assistance for all your organizational needs.
+            </p>
+        </div>
+
+        <div class="grid">
+            <!-- IT Ticket Card -->
+            <div class="card">
+                <a href="it-ticket.html" class="card-action">
+                    <div class="icon-circle icon-circle-primary">
+                        <span class="material-icons" style="font-size: 40px;">computer</span>
+                    </div>
+                    <h4>IT Ticket</h4>
+                    <p>Hardware requests, software issues, and network connectivity support.</p>
+                    <div class="d-flex align-center justify-center mt-4" style="color: var(--primary-color);">
+                        <span class="material-icons" style="font-size: 18px;">arrow_forward</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- HR Ticket Card -->
+            <div class="card disabled">
+                <div class="card-action">
+                    <div class="icon-circle icon-circle-disabled">
+                        <span class="material-icons" style="font-size: 40px;">people</span>
+                    </div>
+                    <h4 style="color: var(--text-secondary);">HR Ticket</h4>
+                    <p style="color: var(--text-secondary);">Benefits, payroll queries, and general human resources
+                        inquiries.</p>
+                    <span class="chip chip-secondary mt-2">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-8">
+            <p>© 2026 My Org Inc.</p>
+        </div>
+    </div>
+</body>
+
+</html>
