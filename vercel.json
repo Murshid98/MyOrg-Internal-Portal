@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/(.*)",
-            "destination": "/index.html"
+            "source": "/prweb/:path*",
+            "destination": "https://c0btedt2.pegace.net/prweb/:path*"
         }
     ]
 }
