@@ -129,3 +129,10 @@ function cancelConfirm() {
     // Optionally re-open the request modal if desired, or just stay on page
     document.getElementById('requestModal').classList.add('open');
 }
+
+// Expose functions to global scope for inline event handlers
+window.openModal = openModal;
+window.closeModal = closeModal;
+window.handleSubmit = handleSubmit;
+window.handleFinalConfirm = handleFinalConfirm;
+window.cancelConfirm = cancelConfirm;
